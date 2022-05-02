@@ -43,6 +43,7 @@ public class Logout_stepDef {
 	@Then("^Message displayed LogOut Successfully$")
 	public void Message_displayed_LogOut_Successfully() throws Throwable {
 		System.out.println("Message displayed LogOut Successfully");
+		System.out.println("Close the browser");
 	   
 	}
 
