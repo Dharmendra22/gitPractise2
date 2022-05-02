@@ -12,6 +12,7 @@ public class Logout_stepDef {
 	
 	@Given("^User is on Home Page$")
 	public void User_is_on_Home_Page() throws Throwable {
+		System.out.println("Launch the browser");
 		System.out.println("User is on Home Page");
 	    
 	}
